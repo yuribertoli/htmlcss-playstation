@@ -66,4 +66,8 @@ section.bg-dark img {
     margin-bottom: 5px;
 }
 
+.card_img_videogame.second_card {
+    background-image: none;
+    background-color: lightgray;
+}
 /* Fine regole Main */
