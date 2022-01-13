@@ -1,3 +1,4 @@
+/* Inizio regole generali */
 .color_ps {
     color: #0070d1;
 }
@@ -6,10 +7,24 @@ a.btn, button.btn {
     border-radius: 20px;
 }
 
+/* Fine regole generali */
+
+/* Inizio regole Jumbotron */
 #jumbotron div.carousel-item {
-    max-height: 650px;
+    max-height: 600px;
+}
+
+#jumbotron div.carousel-item img {
+    min-height: 500px;
     object-fit: cover;
 }
 
+div.card.position-absolute {
+    top: 20%;
+    left: 15%;
+}
+
+
+/* Fine regole Jumbotron */
 
 
