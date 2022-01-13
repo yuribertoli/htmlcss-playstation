@@ -76,7 +76,16 @@ section.bg-dark img {
     background-color: darkblue;
 }
 /* Fine regole Main */
-
+/* Inizio regole Footer */
+footer {
+    background-color: blue;
+}
+#globe {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+/* Fine regole Footer */
 
 @media screen and (min-width: 820px) {
 
