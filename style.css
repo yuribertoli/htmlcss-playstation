@@ -64,6 +64,10 @@ header .row img {
     width: 100px;
     height: auto;
 }
+
+.div_top_dropdown {
+    width: 100vh;
+}
 /* Fine regole header */
 /* Inizio regole Jumbotron */
 #jumbotron {
