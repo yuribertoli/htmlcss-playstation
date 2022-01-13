@@ -1,0 +1,15 @@
+.color_ps {
+    color: #0070d1;
+}
+
+a.btn, button.btn {
+    border-radius: 20px;
+}
+
+#jumbotron div.carousel-item {
+    max-height: 650px;
+    object-fit: cover;
+}
+
+
+
