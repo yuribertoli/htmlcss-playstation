@@ -10,6 +10,10 @@ a.btn, button.btn {
 section {
     padding: 30px 0;
 }
+
+.items_displayed img, button {
+    border-radius: 15px;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -36,7 +40,7 @@ header .row img {
     object-fit: cover;
 }
 
-div.card.position-absolute {
+#jumbotron .position-absolute {
     top: 20%;
     left: 15%;
 }
@@ -49,7 +53,6 @@ div.card.position-absolute {
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
-    border-radius: 15px;
 }
 
 /* Fine regole Main */
