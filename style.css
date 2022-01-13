@@ -7,6 +7,9 @@ a.btn, button.btn {
     border-radius: 20px;
 }
 
+section {
+    padding: 30px 0;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -20,6 +23,10 @@ header .row img {
 }
 /* Fine regole header */
 /* Inizio regole Jumbotron */
+#jumbotron {
+    padding-top: 96px;
+}
+
 #jumbotron div.carousel-item {
     max-height: 600px;
 }
@@ -36,4 +43,14 @@ div.card.position-absolute {
 
 /* Fine regole Jumbotron */
 
+/* Inizio regole Main */
+.items_displayed img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+/* Fine regole Main */
 
