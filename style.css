@@ -13,6 +13,11 @@ section {
     padding: 30px 0;
 }
 
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .items_displayed img, button {
     border-radius: 15px;
 }
@@ -89,6 +94,15 @@ header .row img {
 .go_up:hover {
     transform: translate(0, -15px);
     cursor: pointer;
+}
+
+.go_up img {
+    outline: 1px solid transparent;
+    outline-offset: 2px;
+}
+
+.go_up img:hover {
+    outline: 1px solid black;
 }
 
 #play_shadow {
