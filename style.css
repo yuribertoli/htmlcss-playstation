@@ -1,6 +1,8 @@
 /* Inizio regole generali */
 .color_ps {
     color: #0070d1;
+    font-size: 1.6rem;
+    margin-left: 10px;
 }
 
 a.btn, button.btn {
@@ -21,6 +23,31 @@ section {
     background-position: center;
 }
 
+button {
+    outline: 1px solid white;
+    outline-offset: 2px;    
+}
+
+button.btn-dark:hover {
+    outline: 1px solid black;
+}
+
+button.btn-primary:hover, a.btn-outline-primary:hover {
+    outline: 1px solid blue;
+}
+
+a.btn-light, a.btn-outline-primary, a.btn-danger {
+    outline: 1px solid transparent;
+    outline-offset: 2px;
+}
+
+a.btn-light:hover {
+    outline: 1px solid white;
+}
+
+a.btn-danger:hover {
+    outline: 1px solid rgb(167, 0, 0);
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
