@@ -9,6 +9,16 @@ a.btn, button.btn {
 
 /* Fine regole generali */
 
+/* Inizio regole header */
+header .bg-dark {
+    height: 40px;
+}
+
+header .row img {
+    width: 100px;
+    height: auto;
+}
+/* Fine regole header */
 /* Inizio regole Jumbotron */
 #jumbotron div.carousel-item {
     max-height: 600px;
@@ -23,7 +33,6 @@ div.card.position-absolute {
     top: 20%;
     left: 15%;
 }
-
 
 /* Fine regole Jumbotron */
 
