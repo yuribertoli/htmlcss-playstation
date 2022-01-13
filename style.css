@@ -70,4 +70,18 @@ section.bg-dark img {
     background-image: none;
     background-color: lightgray;
 }
+
+.card_img_videogame.third_card {
+    background-image: none;
+    background-color: darkblue;
+}
 /* Fine regole Main */
+
+
+@media screen and (min-width: 820px) {
+
+    .container.social_media {
+        max-width: 700px;
+    }
+
+}
