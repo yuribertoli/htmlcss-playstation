@@ -65,6 +65,30 @@ header .row img {
     height: auto;
 }
 
+ul.dropdown-menu {
+    width: 100vw;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: 0;
+}
+
+.ms_left {
+    margin-left: 32.5%;
+}
+
+.ms_ul {
+    list-style: none;
+}
+
+.ms_li::before {
+    content: "\2022";  
+    color: blue; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -30px;
+}
 /* Fine regole header */
 /* Inizio regole Jumbotron */
 #jumbotron {
