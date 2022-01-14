@@ -65,9 +65,6 @@ header .row img {
     height: auto;
 }
 
-.div_top_dropdown {
-    width: 100vh;
-}
 /* Fine regole header */
 /* Inizio regole Jumbotron */
 #jumbotron {
@@ -132,6 +129,7 @@ section.bg-dark img {
 .card_img_videogame.second_card {
     background-image: none;
     background-color: lightgray;
+    padding: 0;
 }
 
 .card_img_videogame.third_card {
@@ -139,6 +137,9 @@ section.bg-dark img {
     background-color: darkblue;
 }
 
+.monster img {
+    max-height: 372px;
+}
 /* Fine regole Main */
 /* Inizio regole Footer */
 footer {
