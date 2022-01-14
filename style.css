@@ -79,6 +79,10 @@ header .row img {
     border-top-right-radius: 0;
 }
 
+.ms_dropdown {
+    min-height: 100px;
+}
+
 .ms_ul {
     list-style: none;
 }
