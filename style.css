@@ -65,16 +65,18 @@ header .row img {
     height: auto;
 }
 
-ul.dropdown-menu {
-    width: 100vw;
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
 }
 
 .dropdown-menu[data-bs-popper] {
-    left: 0;
-}
-
-.ms_left {
-    margin-left: 32.5%;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .ms_ul {
